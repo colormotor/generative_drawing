@@ -7,7 +7,7 @@
 from py5canvas import *
 
 def setup():
-    create_canvas(500, 500)
+    create_canvas(800, 800)
 
 def draw():
     background(0)

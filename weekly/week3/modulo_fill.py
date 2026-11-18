@@ -10,10 +10,10 @@ from py5canvas import *
 
 
 cell_size = 10
-nrows = 40
-ncols = 40
+nrows = 50
+ncols = 50
 counter = 0
-pattern = 10
+pattern = 11
 
 # most prime numbers will give us nice patterns that fill the grid in (nrows * ncols) iterations
 primes = [1, 2, 3, 5, 7, 11, 13, 17, 19,
@@ -49,7 +49,7 @@ def draw():
         # to recover the row and column in a grid
         x = i % ncols  # the column
         y = (i - x) // ncols  # the row
-        rect(x * cell_size, y * cell_size, cell_size, cell_size)
+        rectangle(x * cell_size, y * cell_size, cell_size, cell_size)
 
 # key_pressed gets called automatically if user pressed a key on the keyboard.
 # k is the character that was pressed
@@ -58,6 +58,6 @@ def key_pressed(k):
     if k==" ":
         # if user pressed space, restart filling
         background(255)
-        pattern = (pattern + 1) % len(primes)
+        pattern = (pattern + 2) % len(primes)
 
 run()

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+
+<svg:filter id="filter-remove-color-and-invert-alpha" x="0%" y="0%" width="100%" height="100%">
+<svg:feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -1 1" />
+</svg:filter>
+<svg:filter id="filter-0" x="0%" y="0%" width="100%" height="100%">
+<svg:feImage xlink:href="#compositing-group-1" result="source" x="0" y="0" width="576" height="576" />
+<svg:feImage xlink:href="#compositing-group-2" result="destination" x="0" y="0" width="576" height="576" />
+<svg:feComposite in="source" in2="destination" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" color-interpolation-filters="sRGB" />
+</svg:filter>
+<svg:g id="compositing-group-0" transform="translate(88, 88)">
+<svg:rect x="-88" y="-88" width="576" height="576" fill="rgb(0%, 0%, 0%)" fill-opacity="0" />
+<svg:path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0 0 L 400 0 L 400 400 L 0 400 Z M 0 0 " />
+</svg:g>
+<svg:mask id="mask-0">
+</svg:mask>
+<svg:mask id="mask-1">
+</svg:mask>
+<svg:g id="compositing-group-1" mask="url(#mask-0)">
+<svg:g transform="translate(88, 88)">
+<svg:rect x="-88" y="-88" width="576" height="576" fill="rgb(100%, 100%, 100%)" fill-opacity="1" />
+</svg:g>
+</svg:g>
+<svg:g id="compositing-group-2" mask="url(#mask-1)">
+<svg:g transform="translate(88, 88)">
+<svg:rect x="-88" y="-88" width="576" height="576" fill="rgb(78.431373%, 78.431373%, 78.431373%)" fill-opacity="1" />
+</svg:g>
+</svg:g>
+<svg:g id="source-3535">
+<svg:g filter="url(#filter-0)" transform="translate(-88, -88)">
+<svg:rect x="0" y="0" width="576" height="576" fill="rgb(0%, 0%, 0%)" fill-opacity="1" />
+</svg:g>
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -44.999036 -47.000843 L 54.999819 -46.999991 L 54.998967 52.998864 L -44.999888 52.998012 Z M -44.999036 -47.000843 " transform="matrix(0.862319, 0.506366, -0.506366, 0.862319, 100, 81.093024)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -44.998227 -47.001008 L 54.999293 -47.000469 L 54.999461 53.000892 L -44.998059 53.000354 Z M -44.998227 -47.001008 " transform="matrix(0.983502, 0.180898, -0.180898, 0.983502, 122.222222, 120.111748)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.001517 -46.999673 L 55.00208 -47.000785 L 54.99999 52.998309 L -44.999755 53.000071 Z M -45.001517 -46.999673 " transform="matrix(0.98606, -0.166389, 0.166389, 0.98606, 144.444444, 161.427046)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -44.999326 -46.999715 L 55.000231 -46.998417 L 54.998933 53.00114 L -45.000624 52.999842 Z M -44.999326 -46.999715 " transform="matrix(0.869685, -0.493607, 0.493607, 0.869685, 166.666667, 163.131702)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.000223 -46.999869 L 54.998855 -47.000985 L 54.999972 52.998093 L -44.999107 52.99921 Z M -45.000223 -46.999869 " transform="matrix(0.648413, -0.761289, 0.761289, 0.648413, 188.888889, 188.322623)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.001102 -46.999496 L 54.999399 -46.998338 L 55.001901 53.000801 L -44.9986 52.999642 Z M -45.001102 -46.999496 " transform="matrix(0.348933, -0.937148, 0.937148, 0.348933, 211.111111, 221.449634)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.001715 -46.999216 L 55.000982 -47.001468 L 54.999328 53.001257 L -44.999491 52.999574 Z M -45.001715 -46.999216 " transform="matrix(0.00736607, -0.999973, 0.999973, 0.00736607, 233.333333, 247.794925)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.000472 -47.000417 L 54.99926 -46.999356 L 54.998199 53.000376 L -45.001533 52.999315 Z M -45.000472 -47.000417 " transform="matrix(-0.335089, -0.942186, 0.942186, -0.335089, 255.555556, 236.422153)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -44.9995 -46.999856 L 54.998094 -46.999502 L 55.000751 53.00058 L -44.999854 52.997738 Z M -44.9995 -46.999856 " transform="matrix(-0.637127, -0.770758, 0.770758, -0.637127, 277.777778, 264.527606)" />
+<svg:path fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -44.998144 -46.999323 L 55.000711 -46.998471 L 54.99986 53.000384 L -44.998995 52.999532 Z M -44.998144 -46.999323 " transform="matrix(-0.862319, -0.506366, 0.506366, -0.862319, 300, 309.002489)" />
+</svg:g>
+
+</svg:svg>

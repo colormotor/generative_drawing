@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+
+<svg:g id="source-4066">
+<svg:rect x="-110" y="-110" width="720" height="720" fill="rgb(78.431373%, 78.431373%, 78.431373%)" fill-opacity="1" />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 0 L 66.667969 75 L 0 100 Z M 100 0 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 75 25 L 58.332031 62.5 L 25 75 Z M 75 25 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 200 100 L 125 66.667969 L 100 0 Z M 200 100 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 175 75 L 137.5 58.332031 L 125 25 Z M 175 75 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 0 L 266.667969 75 L 200 100 Z M 300 0 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 275 25 L 258.332031 62.5 L 225 75 Z M 275 25 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 0 L 375 33.332031 L 400 100 Z M 300 0 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 325 25 L 362.5 41.667969 L 375 75 Z M 325 25 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 500 100 L 425 66.667969 L 400 0 Z M 500 100 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 475 75 L 437.5 58.332031 L 425 25 Z M 475 75 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 100 L 66.667969 175 L 0 200 Z M 100 100 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 75 125 L 58.332031 162.5 L 25 175 Z M 75 125 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 200 L 133.332031 125 L 200 100 Z M 100 200 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 125 175 L 141.667969 137.5 L 175 125 Z M 125 175 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 200 200 L 233.332031 125 L 300 100 Z M 200 200 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 225 175 L 241.667969 137.5 L 275 125 Z M 225 175 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 400 100 L 366.667969 175 L 300 200 Z M 400 100 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 375 125 L 358.332031 162.5 L 325 175 Z M 375 125 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 500 200 L 425 166.667969 L 400 100 Z M 500 200 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 475 175 L 437.5 158.332031 L 425 125 Z M 475 175 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 0 200 L 75 233.332031 L 100 300 Z M 0 200 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 25 225 L 62.5 241.667969 L 75 275 Z M 25 225 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 200 300 L 125 266.667969 L 100 200 Z M 200 300 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 175 275 L 137.5 258.332031 L 125 225 Z M 175 275 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 200 300 L 233.332031 225 L 300 200 Z M 200 300 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 225 275 L 241.667969 237.5 L 275 225 Z M 225 275 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 200 L 375 233.332031 L 400 300 Z M 300 200 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 325 225 L 362.5 241.667969 L 375 275 Z M 325 225 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 400 300 L 433.332031 225 L 500 200 Z M 400 300 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 425 275 L 441.667969 237.5 L 475 225 Z M 425 275 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 400 L 25 366.667969 L 0 300 Z M 100 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 75 375 L 37.5 358.332031 L 25 325 Z M 75 375 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 300 L 175 333.332031 L 200 400 Z M 100 300 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 125 325 L 162.5 341.667969 L 175 375 Z M 125 325 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 400 L 225 366.667969 L 200 300 Z M 300 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 275 375 L 237.5 358.332031 L 225 325 Z M 275 375 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 400 L 333.332031 325 L 400 300 Z M 300 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 325 375 L 341.667969 337.5 L 375 325 Z M 325 375 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 500 400 L 425 366.667969 L 400 300 Z M 500 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 475 375 L 437.5 358.332031 L 425 325 Z M 475 375 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 100 400 L 66.667969 475 L 0 500 Z M 100 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 75 425 L 58.332031 462.5 L 25 475 Z M 75 425 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 200 500 L 125 466.667969 L 100 400 Z M 200 500 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 175 475 L 137.5 458.332031 L 125 425 Z M 175 475 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 300 500 L 225 466.667969 L 200 400 Z M 300 500 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 275 475 L 237.5 458.332031 L 225 425 Z M 275 475 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 400 400 L 366.667969 475 L 300 500 Z M 400 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 375 425 L 358.332031 462.5 L 325 475 Z M 375 425 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 400 400 L 475 433.332031 L 500 500 Z M 400 400 " />
+<svg:path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 425 425 L 462.5 441.667969 L 475 475 Z M 425 425 " />
+</svg:g>
+
+</svg:svg>
