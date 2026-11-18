@@ -9,6 +9,8 @@
   - Try to adapt ideas from the harmonograph article to the sketch
 '''
 
+from cmath import cos, rect, sin
+
 from py5canvas import *
 
 steps = 50
@@ -23,15 +25,36 @@ def draw():
     no_fill() #fill(255, 100)
     stroke(255) #, 120)
     
-    n = 300
-    delta = TWO_PI / 4
-    a, b = 1.0, 4.0
+    n = 1000
+    # delta = TWO_PI / 4
+    delta = sin(seconds()*0.5) * TWO_PI
+    delta = remap(seconds(), 0, 59, 0, TWO_PI) + seconds()*0.1
+    delta2 = TWO_PI / 4
+    a, b = 10,11.3
+
+
+    # r = remap(sin(seconds()), 0, 1, 255, 0)
+    # g = random(r, 255)
+
+
+    # for j in range(n2):
+    #     t = remap(j, 0, n, 0, TWO_PI) + seconds()*0.5
+    #     x = sin(t * a + delta2)*width
+    #     y = sin(t * b)*height
+    #     no_stroke()
+    #     fill(y, 255)
+    #     circle(x, y, 10)
 
     for i in range(n):
-        t = remap(i, 0, n, 0, TWO_PI) + seconds()*0.1
-        x = sin(t * a + delta)*width*0.5
-        y = sin(t * b)*height*0.5
-        circle(x, y, 10)
+        for j in letter:
+         t = remap(i, 0, n, 0, TWO_PI) + seconds()*0.01
+         x = sin(t * a + delta)*width*0.4
+         y = cos(t * b)*height*0.5
+        no_fill()
+        # rectangle(x, y, 5, 50)
+        # text(str(~),x, y + 30)
+        text(str("#"), x, y)
+
 
 # Run the sketch
 run()
