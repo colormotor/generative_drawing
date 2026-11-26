@@ -1,0 +1,15 @@
+{
+    "params": {
+        "palette_y": 0.6309999823570251,
+        "mult": 12
+    },
+    "presets": {
+        "My preset": {
+            "palette_y": 0.6309999823570251
+        },
+        "another preset": {
+            "palette_y": 0.14900000393390656
+        }
+    },
+    "aux": {}
+}
