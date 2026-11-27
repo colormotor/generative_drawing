@@ -33,6 +33,6 @@ def draw():
     background(255)
     ripple(width / 2, height / 2, step)
     # Try adding ripples 
-    ripple(width / 2 + 100, height / 2 + 10, step)
+    #ripple(width / 2 + 100, height / 2 + 10, step)
 
 run()

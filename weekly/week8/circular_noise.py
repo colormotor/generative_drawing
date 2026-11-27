@@ -25,7 +25,7 @@ def draw():
     nz = random(0, 100, n)
     fill(255, 5)
 
-    for j in range(20):
+    for j in range(10):
         rmul = remap(j, 0, 10, 1, 5)
         angs = np.linspace(0, TWO_PI, n, endpoint=False)
         noise_radii = np.linspace(0.2, 0.3, n)
@@ -39,18 +39,18 @@ def draw():
 
     return
 
-    n = 15
-    for j in range(10):
-        rmul = remap(j, 0, 10, 1, 5)
-        begin_shape()
-        for i in range(n):
-            ang = remap(i, 0, n, 0, TWO_PI)
-            r_noise = remap(i, 0, n, 0.2, 0.5)
-            r = (noise(cos(anim_theta)*r_noise,
-                    sin(anim_theta)*r_noise,
-                    random(0, 100))*150 + 10)*rmul
-            curve_vertex(cos(ang)*r, sin(ang)*r)
-        end_shape(CLOSE)
+    # n = 15
+    # for j in range(10):
+    #     rmul = remap(j, 0, 10, 1, 5)
+    #     begin_shape()
+    #     for i in range(n):
+    #         ang = remap(i, 0, n, 0, TWO_PI)
+    #         r_noise = remap(i, 0, n, 0.2, 0.5)
+    #         r = (noise(cos(anim_theta)*r_noise,
+    #                 sin(anim_theta)*r_noise,
+    #                 random(0, 100))*150 + 10)*rmul
+    #         curve_vertex(cos(ang)*r, sin(ang)*r)
+    #     end_shape(CLOSE)
 
 
 run()
