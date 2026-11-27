@@ -1,6 +1,7 @@
 from py5canvas import *
 from py5canvas import geom
 from PIL import ImageOps
+from PIL import ImageEnhance
 from importlib import reload
 import utils 
 reload(utils)
@@ -17,14 +18,21 @@ def setup():
     create_canvas(w, h)
 
 def draw():
-    background(255, 0)
-    fill(random(0,255),random(100,255),random(100,255))
-    # no_stroke()
+    background(255,100)
+    # fill(100, 50)
+    no_stroke()
 
     img = vin.read()
     img = img.convert('L')
-    contours = utils.find_contours(img, eps=50)
-    # image(img)
+    contours = utils.find_contours(img, eps=random(10,90))
+
+
+    img2= ImageEnhance.Color(img).enhance(0)
+    img3 =ImageEnhance.Contrast(img2).enhance(10)
+    img4 = ImageOps.invert(img.convert('L'))
+    image(img2, opacity=100)
+    image(img3, opacity=0)
+    image(img4, opacity=1)
 
     box = geom.bounding_box(contours)
     # contours = geom.transform_to_rect(contours, geom.make_rect(0, 0, 100, 100))
@@ -36,9 +44,9 @@ def draw():
     for poly in contours:
     # print(poly)
         # polygon(poly, close=True)
-        curve(poly, close=True)
+        curve(poly, close=False)
 
-    stroke(random(0,255), 0, 0).no_fill()
+    stroke(random(255)).no_fill()
     rectangle(box)
     # spacing = width/img.height
     # for y in range(img.height):

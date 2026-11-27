@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def find_contours(img, thresh=127, blur=5, invert=True, eps=1.0):
+def find_contours(img, thresh=127, blur=1, invert=False, eps=1.0):
     ''' Utility function to get contours compatible with py5canvas.
     Assumes a grayscale image as a result
     The eps parameter controls the amount of simplification (if > 0)
@@ -16,7 +16,7 @@ def find_contours(img, thresh=127, blur=5, invert=True, eps=1.0):
     for ctr in contours:
         if eps > 0:
             ctr = cv2.approxPolyDP(ctr, eps, True)
-        if len(ctr) > 3:
+        if len(ctr) > 2:
             S.append(np.vstack([ctr[:,0,0], ctr[:,0,1]]).T)
     return S
 
