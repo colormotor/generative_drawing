@@ -45,13 +45,13 @@ def draw():
     v = sin((cos(x * PI) * sin(y * PI) + t * TWO_PI) * params.mult)
 
     # Trifoil warp 
-    # v = sin(8 * r + 6 * sin(3 * angle + t * TWO_PI) + t*TWO_PI*4)
+    v = sin(8 * r + 6 * sin(3 * angle + t * TWO_PI) + t*TWO_PI*4)
 
     # Noisy pattern
-    #v = sin(noise(x*2)*5 + cos(y*8) + t*TWO_PI)
+    # v = sin(noise(x*2)*5 + cos(y*8) + t*TWO_PI)
 
     # Ripple
-    #v = sin((x**2 + y**2)*10 + t*TWO_PI*3)
+    # v = sin((x**2 + y**2)*10 + t*TWO_PI*3)
     
     # Draw it
     image(colorize_image(v, palette, params.palette_y))

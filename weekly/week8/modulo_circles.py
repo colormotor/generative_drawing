@@ -31,8 +31,8 @@ def ripple(x, y, step):
 
 def draw():
     background(255)
-    ripple(width / 2, height / 2, step)
+    ripple(width / 2, height / 2, step/20)
     # Try adding ripples 
-    ripple(width / 2 + 100, height / 2 + 10, step)
+    # ripple(width /  + 100, height / 2 + 10, step)
 
 run()

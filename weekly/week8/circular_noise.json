@@ -1,7 +1,14 @@
 {
     "params": {
-        "seed": 10
+        "seed": 7
     },
-    "presets": {},
+    "presets": {
+        "7": {
+            "seed": 7
+        },
+        "655": {
+            "seed": 655
+        }
+    },
     "aux": {}
 }
